@@ -14,74 +14,68 @@ interface CaseStudy {
 
 const caseStudies: CaseStudy[] = [
   {
-    id: "notion",
-    company: "ТехноСофт",
+    id: "elena",
+    company: "Елена, 34 года",
     logo: (
-      <svg fill="none" height="48" viewBox="0 0 38 48" width="38" xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="m14.25 5c0 7.8701-6.37994 14.25-14.25 14.25v9.5h14.25v14.25h9.5c0-7.8701 6.3799-14.25 14.25-14.25v-9.5h-14.25v-14.25z"
-          fill="#16b364"
-        />
+      <svg fill="none" height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="24" cy="24" r="24" fill="#e8f4f8" />
+        <circle cx="24" cy="20" r="8" fill="#156d95" />
+        <path d="M8 42c0-8.837 7.163-16 16-16s16 7.163 16 16" fill="#156d95" opacity="0.4" />
       </svg>
     ),
-    title: "ТехноСофт использует СинхроЛинк для понимания взаимодействия команд в реальном времени.",
-    features: ["Звонки в Slack", "Транскрипции встреч", "Отчеты о настроениях"],
-    quote: "СинхроЛинк дает нам ясность в синхронизации команды, которой раньше не было.",
-    attribution: "Мария Иванова, Руководитель операций, ТехноСофт",
+    title: "Елена справилась с хроническим тревожным состоянием и вернула радость от работы и семьи.",
+    features: ["Управление тревогой", "Эмоциональный интеллект", "Работа с выгоранием"],
+    quote: "Я наконец научилась не тонуть в эмоциях, а управлять ими. Это изменило всё.",
+    attribution: "Елена К., маркетолог, Москва",
     accentColor: "#16b364",
   },
   {
-    id: "cloudwatch",
-    company: "ДатаВью",
+    id: "mikhail",
+    company: "Михаил, 41 год",
     logo: (
       <svg fill="none" height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
-        <rect fill="url(#gradient1)" height="48" rx="12" width="48" />
-        <circle cx="24" cy="24" r="12" fill="white" />
-        <circle cx="24" cy="24" r="8" fill="#3b82f6" />
-        <defs>
-          <linearGradient id="gradient1" gradientUnits="userSpaceOnUse" x1="24" x2="24" y1="0" y2="48">
-            <stop stopColor="#3b82f6" />
-            <stop offset="1" stopColor="#1d4ed8" />
-          </linearGradient>
-        </defs>
+        <circle cx="24" cy="24" r="24" fill="#f0f4ff" />
+        <circle cx="24" cy="20" r="8" fill="#3b82f6" />
+        <path d="M8 42c0-8.837 7.163-16 16-16s16 7.163 16 16" fill="#3b82f6" opacity="0.4" />
       </svg>
     ),
-    title: "ДатаВью использует СинхроЛинк для мониторинга динамики команд в глобальных офисах.",
-    features: ["Звонки в Slack", "Транскрипции встреч", "Отчеты о настроениях"],
-    quote: "С СинхроЛинк мы видим паттерны взаимодействия, которые напрямую влияют на скорость разработки.",
-    attribution: "Сергей Петров, VP Engineering, ДатаВью",
+    title: "Михаил перестал срываться на близких и восстановил отношения в семье после нескольких лет напряжения.",
+    features: ["Контроль гнева", "Границы в отношениях", "Внутренний баланс"],
+    quote: "Тренинг дал мне инструменты, которые работают в реальной жизни, а не только на бумаге.",
+    attribution: "Михаил С., предприниматель, Санкт-Петербург",
     accentColor: "#3b82f6",
   },
   {
-    id: "eightball",
-    company: "СинергиЯ",
+    id: "anna",
+    company: "Анна, 28 лет",
     logo: (
       <svg fill="none" height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="24" cy="24" r="20" fill="#0A0D12" />
-        <circle cx="28" cy="20" r="8" fill="white" />
+        <circle cx="24" cy="24" r="24" fill="#f5f0ff" />
+        <circle cx="24" cy="20" r="8" fill="#8b5cf6" />
+        <path d="M8 42c0-8.837 7.163-16 16-16s16 7.163 16 16" fill="#8b5cf6" opacity="0.4" />
       </svg>
     ),
-    title: "СинергиЯ полагается на СинхроЛинк для отслеживания здоровья команды и качества асинхронной коммуникации.",
-    features: ["Звонки в Slack", "Отчеты о настроениях"],
-    quote: "СинхроЛинк изменил наше понимание культуры удаленной работы.",
-    attribution: "Анна Смирнова, Сооснователь, СинергиЯ",
-    accentColor: "#0A0D12",
+    title: "Анна вышла из эмоционального выгорания и научилась восстанавливать силы без чувства вины.",
+    features: ["Работа с выгоранием", "Самопринятие", "Энергия и ресурс"],
+    quote: "После тренинга я наконец позволила себе отдыхать. Это звучит просто, но для меня это был прорыв.",
+    attribution: "Анна В., врач, Екатеринбург",
+    accentColor: "#8b5cf6",
   },
   {
-    id: "coreos",
-    company: "КорСистемс",
+    id: "olga",
+    company: "Ольга, 45 лет",
     logo: (
       <svg fill="none" height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
-        <rect fill="#101828" height="48" rx="12" width="48" />
-        <path d="M16 16h16v16H16z" fill="#155eef" />
-        <path d="M20 20h8v8h-8z" fill="white" />
+        <circle cx="24" cy="24" r="24" fill="#fff0f5" />
+        <circle cx="24" cy="20" r="8" fill="#e11d48" />
+        <path d="M8 42c0-8.837 7.163-16 16-16s16 7.163 16 16" fill="#e11d48" opacity="0.4" />
       </svg>
     ),
-    title: "КорСистемс использует СинхроЛинк для синхронизации дизайн и инженерных команд во время спринтов.",
-    features: ["Транскрипции встреч", "Отчеты о настроениях"],
-    quote: "Анализ настроений помогает выявить точки напряжения до того, как они станут блокерами.",
-    attribution: "Николай Козлов, VP Engineering, КорСистемс",
-    accentColor: "#155eef",
+    title: "Ольга освоила техники быстрого восстановления и перестала зависеть от внешних обстоятельств.",
+    features: ["Эмоциональная устойчивость", "Техники заземления", "Ресурсное состояние"],
+    quote: "Я стала спокойнее реагировать на кризисы. Коллеги заметили изменения раньше, чем я сама.",
+    attribution: "Ольга Р., руководитель отдела, Казань",
+    accentColor: "#e11d48",
   },
 ];
 
@@ -96,14 +90,14 @@ const FeatureBadge = ({ name }: { name: string }) => {
           <path d="M6 10C5.44772 10 5 10.4477 5 11C5 11.5523 5.44772 12 6 12H10V10H6Z" fill="#ECB22E" />
         </svg>
       );
-    } else if (featureName.includes("встреч") || featureName.includes("Транскрипции")) {
+    } else if (featureName.includes("Границы") || featureName.includes("Самопринятие") || featureName.includes("интеллект") || featureName.includes("Энергия") || featureName.includes("Техники")) {
       return (
         <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 opacity-50">
           <path d="M2 4C2 3.44772 2.44772 3 3 3H9C9.55228 3 10 3.44772 10 4V10C10 10.5523 9.55228 11 9 11H3C2.44772 11 2 10.5523 2 10V4Z" stroke="#5E6AD2" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
           <path d="M10 5L13 3V11L10 9" stroke="#5E6AD2" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       );
-    } else if (featureName.includes("настроен") || featureName.includes("Отчеты")) {
+    } else if (featureName.includes("выгоран") || featureName.includes("Работа") || featureName.includes("устойчив") || featureName.includes("ресурс") || featureName.includes("Ресурс")) {
       return (
         <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 opacity-50">
           <path d="M3 9L5 11L8 8L13 13" stroke="#10B981" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

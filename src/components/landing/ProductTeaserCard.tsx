@@ -15,12 +15,12 @@ interface ProductTeaserCardProps {
 
 export const ProductTeaserCard = (props: ProductTeaserCardProps) => {
   const {
-    dailyVolumeLabel = "ОБРАБОТАНО СООБЩЕНИЙ ЗА СУТКИ",
-    headline = "Интеллектуальный слой для современных коммуникаций",
-    subheadline = "СинхроЛинк объединяет все ваши звонки, чаты и встречи в единую AI-платформу — предоставляя аналитику в реальном времени, анализ тональности и синхронизацию команды.",
-    primaryButtonText = "Начать анализ",
+    dailyVolumeLabel = "ОНЛАЙН-ТРЕНИНГ ПО УПРАВЛЕНИЮ ЭМОЦИЯМИ",
+    headline = "Найдите внутренний баланс и живите в гармонии с собой",
+    subheadline = "Практический тренинг, который поможет справляться со стрессом, управлять эмоциями и выстроить устойчивое психологическое состояние — без выгорания и лишнего напряжения.",
+    primaryButtonText = "Записаться на тренинг",
     primaryButtonHref = "",
-    secondaryButtonText = "Документация API",
+    secondaryButtonText = "Узнать подробнее",
     secondaryButtonHref = "",
   } = props;
 
@@ -94,7 +94,7 @@ export const ProductTeaserCard = (props: ProductTeaserCardProps) => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
                 </svg>
               </div>
-              <p className="text-[#156d95] font-medium text-xl">Облачная аналитика</p>
+              <p className="text-[#156d95] font-medium text-xl">Эмоциональный баланс</p>
             </div>
           </motion.div>
         </div>
